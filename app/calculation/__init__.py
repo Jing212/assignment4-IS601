@@ -14,7 +14,7 @@ from abc import ABC, abstractmethod
 # The Operation class is where our basic mathematical functions (e.g., addition, subtraction) are defined.
 # Rather than implementing arithmetic logic within each calculation class, we encapsulate it in a 
 # separate class to promote modularity. This makes it easier to modify or extend these functions independently.
-from app.operation import Operation
+from app.operations import Operation
 
 # -----------------------------------------------------------------------------------
 # Abstract Base Class: Calculation

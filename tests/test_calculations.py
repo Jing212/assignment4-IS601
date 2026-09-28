@@ -3,7 +3,7 @@
 
 import pytest
 from unittest.mock import patch
-from app.operation import Operation
+from app.operations import Operation
 from app.calculation import (
     CalculationFactory,
     AddCalculation,

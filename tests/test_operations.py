@@ -1,7 +1,7 @@
 # tests/test_operations.py
 
 import pytest
-from app.operation import Operation
+from app.operations import Operation
 
 
 # -----------------------------------------------------------------------------------
